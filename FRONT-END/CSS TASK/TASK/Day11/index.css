@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    min-width: 100%;
+    min-height: 750px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(116, 116, 116));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: white;
+}
+
+nav+div{
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+i{
+    font-size: 28px;
+    margin-left:15px ;
+}
+
+section{
+    width: 100%;
+    min-height: 600px;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    padding: 20px 50px;
+    grid-template-areas:
+                        'gr8 gr8 gr1 gr9 gr9 gr9 gr9 g9'
+                        'gr2 gr2 gr1 gr3 gr3 gr3 gr3 gr3'
+                        'gr2 gr2 gr1 gr3 gr3 gr3 gr3 gr3'
+                        'gr2 gr2 gr4 gr4 gr4 gr4 gr5 gr5'
+                        'gr2 gr2 gr4 gr4 gr4 gr4 gr5 gr5'
+                        'gr6 gr6 gr4 gr4 gr4 gr4 gr5 gr5'
+                        'gr6 gr6 gr7 gr7 gr7 gr7 gr5 gr5'
+                        'gr6 gr6 gr7 gr7 gr7 gr7 gr10 gr10'
+                        'gr11 gr11  gr7 gr7 gr7 gr7 gr10 gr10'
+                        
+}
+section>div{
+    width: 100%;
+    min-height:150px;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+
+}
+section>div:nth-child(1){
+    background-color: rgb(162, 215, 198);
+    grid-area: gr1;
+}
+section>div:nth-child(2){
+    background-color: rgb(199, 210, 157);
+    grid-area: gr2;
+}
+section>div:nth-child(3){
+    background-color: rgb(140, 169, 205);
+    grid-area: gr3;
+}
+section>div:nth-child(4){
+    background-color: rgb(165, 122, 183);
+    grid-area: gr4;
+}
+section>div:nth-child(5){
+    background-color: rgb(213, 138, 138);
+    grid-area: gr5;
+}
+section>div:nth-child(6){
+    background-color: rgb(127, 218, 214);
+    grid-area: gr6;
+}
+section>div:nth-child(7){
+    background-color: rgb(135, 198, 125);
+    grid-area: gr7;
+}
+section>div:nth-child(8){
+    background-color: transparent;
+    grid-area: gr8;
+    min-height: 30px;
+    max-height: 50px;
+    
+}
+section>div:nth-child(9){
+    background-color:transparent;
+    grid-area: gr9;
+    height: 30px;
+   
+}
+section>div:nth-child(10){
+    background-color:transparent;
+    grid-area: gr10;
+   height: 50px;
+}
+section>div:nth-child(11){
+    background-color:transparent;
+    grid-area: gr11;
+    min-height: 50px;
+}
+.p1{
+    color: grey;
+}
+h3{
+    font-size: 28px;
+}
+section>div>p:last-child{
+    margin-top: 15px;
+}
+h2,h1{
+    font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px cyan;
+}
+h2{
+    font-size: 35px;
+}
+@media only screen and (min-width:300px) and (max-width:800px){
+    section{
+        
+        grid-template-areas:
+                            'gr1' 
+                            'gr2'
+                            'gr3'
+                            'gr4'
+                            'gr5'
+                            'gr6'
+                            'gr7'        
+    
+    }
+    section>div:nth-child(8){
+        display: none;
+        
+    }
+    section>div:nth-child(9){
+        display: none;
+    }
+    section>div:nth-child(10){
+        display: none;
+    }
+    section>div:nth-child(11){
+        display: none;
+    }
+}

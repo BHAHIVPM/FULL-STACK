@@ -1,0 +1,137 @@
+body{
+    color:white;
+}
+.ob{
+    height: 800px;
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1633886038302-9710437f6ca2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3");
+}
+button{
+    font-size: 18px;
+}
+.hh1{margin:0px;font-size: 30px;color: blueviolet;}
+.n1{
+    padding: 18px 0px 18px 60px;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    background-color:transparent;
+    height:100%
+}
+::placeholder{color: white;}
+p{
+    font-size: 22px;
+    margin: 0px;
+}
+.n2{
+    width: 80%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color:transparent;
+    height: 100%;
+}
+.b1{
+    border: none;
+    background-color: transparent;
+    margin: 0px 25px;
+    color: white;
+}
+.srch{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    width: 100px;
+    height: 50.3px;
+    margin:0px 50px 0px -5px;
+    background-color: blueviolet;
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.ii1{
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    width: 250px;
+    margin:-2px 0px 0px 0px;
+    height: 50.5px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid blueviolet;
+
+}
+.se1{
+    background-color: transparent;
+    width:50%;
+    float:left;
+    margin: 100px 50px;
+}
+.hh2{
+    font-size: 40px;
+    padding-right:80px ;
+}
+span{ color:blueviolet;}
+.sp1{
+    font-size: 65px;
+}
+.b2{
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 20px 0px;
+}
+.se2{
+    width: 25%;
+    border-radius:15px ;
+    background-color: rgb(15, 24, 46);
+    float:right;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 100px 50px;
+}
+.b3,.b4{width:100%;
+    background-color: white;
+    color: blueviolet;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+
+
+}
+.b4{background-color: blueviolet;
+    color: white;
+    margin:20px 0px 10px 0px;
+}
+.ii{
+    width: 98%;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid blueviolet;
+    height: 20px;
+}
+.sd{
+    background-color: transparent;
+    
+    width: 100%;
+    margin-top: 30px;
+}
+.ib2{
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    margin: 20px 10px 0px 10px;
+    color:white;
+    
+}

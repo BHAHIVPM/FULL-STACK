@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.overall{
+    width: 100%;
+    min-height: 710px;
+    padding: 40px 30px;
+
+
+    background-image:linear-gradient(to bottom, rgb(59, 120, 83) 50%,rgb(255, 255, 255) 50%) ;
+}
+.overall>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 100px 5px rgba(0, 0, 0, 0.505);
+    
+}
+/* ----------------------------1box-------------------------------- */
+.overall>div>form{
+    width: 50%;
+    min-height: 100%;
+    background-color:rgb(240, 255, 246);
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0px;
+    text-shadow: 3px 3px 5px rgb(59, 120, 83);
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(59, 120, 83);
+    background-color: transparent;
+}
+div>input{
+    width: unset;
+    height: unset;
+   
+    margin-right: 10px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-bottom: 2px solid rgb(59, 120, 83);
+    background-color: transparent;
+}
+span{
+    color:rgb(59, 120, 83);
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color:white ;
+    background-color:rgb(59, 120, 83);
+    border: none;
+}
+
+/* ---------------------------2box-------------------------- */
+.overall>div>section{
+    width: 50%;
+    min-height: 100%;
+    background-color:rgb(240, 255, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.overall>div>section>div{
+    width: 100%;
+    min-height: 28%;
+
+    display: flex;
+    
+}
+.overall>div>section>div>section:first-child{
+    width: 20%;
+    min-height: 100%;
+
+    padding: 20px;
+    
+}
+.overall>div>section>div>section:last-child{
+    width: 80%;
+    min-height: 100%;
+    padding: 20px;
+}
+h3{
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 5px rgb(59, 120, 83);
+}
+@media screen and (min-width:300px) and (max-width:750px) {
+    .overall>div{
+        flex-direction: column;
+    }
+    .overall>div>section,.overall>div>form{
+        width: 100%;
+    }
+    .overall>div>section>div{
+        flex-direction: column;
+        
+    }
+    .overall{
+        background-image:linear-gradient(to top ,rgb(255, 255, 255) 70%,rgb(59, 120, 83) 30%) ;
+    }
+    
+}

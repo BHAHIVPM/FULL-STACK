@@ -1,0 +1,108 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outbox{
+    width: 100%;
+    min-height: 750px;
+    background-color: rgb(64, 0, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outbox>div:first-child{
+    width: 90%;
+    min-height: 650px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    flex-wrap:wrap;
+    
+    
+
+}
+.outbox>div>section:first-child{
+    height: 450px;
+    width: 275px;
+    max-width: 370px;
+    border-radius:10px ;
+    background-color: rgb(255, 214, 249);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+section>div:nth-child(3)>p{
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(100, 57, 144);
+    padding: 20px;
+
+}
+.outbox>div>section:first-child div{
+    width: 100%;
+    height: 30%;
+}
+.outbox>div>section:nth-child(2){
+    flex-grow: 1;
+    height: 650px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    gap: 20px;
+
+}
+.outbox>div>section:nth-child(2) div:first-child{
+    width: 100%;
+    background-color: rgb(255, 214, 249);
+    padding: 20px;
+    height:350px ;
+    border-radius: 10px;
+    
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{width: 100%;
+    height: 85%;    
+}
+colgroup col:first-child{
+    width: 40%;
+    font-weight: bold;
+    
+}
+tr td:first-child{font-weight: bold;}
+colgroup col:nth-child(2){
+    width: 10%;
+}
+colgroup col:last-child{
+    width: 50%;
+}
+
+.outbox>div>section:nth-child(2) div:last-child{
+   
+    width: 100%;
+    background-color: rgb(255, 214, 249);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+h2{
+    margin-bottom: 10px;
+}
+

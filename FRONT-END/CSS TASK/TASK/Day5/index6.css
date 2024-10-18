@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(94, 117, 63);
+    font-family: Arial;
+}
+form{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(213, 245, 171);
+    padding: 20px;
+    margin: auto;
+    margin-top:100px ;
+}
+h4{
+    color: grey;
+}
+form>div{
+    height: 33%;
+    width: 32%;
+    float: left;
+    padding:10px 0px;
+    margin: 5px;
+}
+input{
+    width: 100%;
+    height: 25%;
+    margin-top:5px ;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 3px;
+}
+h2{
+    margin-bottom: 25px;
+}
+button{
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    background-color:  rgb(130, 177, 68);
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+span{
+    text-decoration: underline  rgb(125, 170, 66);
+}

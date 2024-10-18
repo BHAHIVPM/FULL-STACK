@@ -1,0 +1,39 @@
+
+body{
+    background:gold 0% 20% url("https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 30px 200px;
+}
+div{
+    width: 30%;
+    height: 280px;
+    border-radius: 20px;
+    margin: 15px;
+    border:2px solid rgb(168, 147, 207);
+    float:left;
+    padding:50px  30px;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background-color:rgb(24, 106, 173);
+    color: white;
+    height:50px;
+    width: 50px;
+    font-size: 28px;
+    border-radius: 50%;
+}
+.b2{
+    width:150px ;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.p1{
+    padding: 0px 300px;
+}

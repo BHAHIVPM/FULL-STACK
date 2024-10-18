@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+    min-height: 750px;
+    background-image: radial-gradient(circle, rgb(137, 135, 191), rgb(28, 12, 100));
+}
+ .overall>section{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double rgba(0, 191, 255, 0.719);
+    background-color: rgb(11, 53, 79);
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.269);
+ }
+ h1{
+    font-size: 70px;
+    color: white;
+ }
+
+ .overall>section:nth-child(1){
+    position: fixed;
+    left: 0;
+    top: 0;
+
+ }
+ .overall>section:nth-child(2){
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+ }
+ .overall>section:nth-child(3){
+    position: fixed;
+    left: 38%;
+    top:33%
+    
+ }
+ .overall>section:nth-child(4){
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+ }
+ .overall>section:nth-child(5){
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+ }
+
+ @media screen and (min-width:300px) and (max-width:700px) {
+    .overall>section{
+        width: 150px;
+        height: 150px
+    }
+    .overall>section:nth-child(3){
+     
+        left: 35%;
+        top:40%
+        
+     }
+
+ }
+ @media screen and (min-width:700px) and (max-width:900px) {
+    .overall>section{
+        width: 200px;
+        height: 200px
+    }
+    .overall>section:nth-child(3){
+        position: fixed;
+        left: 38%;
+        top:35%
+        
+     }
+
+ }

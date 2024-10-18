@@ -1,0 +1,117 @@
+body{
+    background-color: beige;
+    font-family: Arial;
+
+}
+.ob{
+    height:600px;
+    width:1100px;
+    background-color: rgb(235, 135, 63);
+    margin:auto;
+    margin-top: 100px;
+}
+h1{
+    background-color: rgb(235, 135, 63);
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+.ss1{
+    background-color: rgb(255, 226, 206);
+    height: 84.5%;
+    width:60%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: -20px 0px 0px 20px;
+}
+label{
+    color: rgb(211, 105, 29);
+}
+.fm{
+    height: 150px;
+    width:100%;
+    background-color:transparent;
+    
+}
+.fm1{
+    height: 100%;
+    width: 48%;
+    background-color:transparent;
+    float: left;
+    
+}
+.fm2{float: right;}
+input{
+    width: 97%;
+    margin-bottom: 20px;
+    height: 26%;
+
+}
+textarea{
+    resize: none;
+    height: 160px;
+    width: 100%;
+    
+}
+.aa1{
+    background-color: rgb(177, 73, 18);
+    height:50px;
+    width:100px;
+    color:white;
+    margin-top: 20px;
+    border: none;
+    
+}
+.hh3{color: white;}
+.ss2{
+    background-color:  rgb(235, 135, 63);
+    height: 87%;
+    width: 38.1%;
+    float:left;
+    box-sizing: border-box;
+    padding:0px 20px;
+    margin-top: -20px ;
+}
+.in1{
+    background-color: rgb(136, 57, 0);
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.in2{
+    background-color: rgb(251, 251, 251);
+    height: 44%;
+    width: 100%;
+    margin: 15px 0px;
+}
+p{
+    color:white
+}
+.ib1{
+    height:30px;
+    width: 30px;
+    border: none;
+    background-color:rgb(255, 148, 76) ;
+    border-radius: 50%;
+    color:white;
+
+}
+.sp{
+    height:30px;
+    width: 70%;
+}
+.ib2{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    color: rgb(196, 193, 193);
+}
+iframe{
+    height: 100%;
+    width:100%;
+    border: none;
+}

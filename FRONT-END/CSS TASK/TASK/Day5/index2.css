@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(255, 165, 217);
+}
+
+body{
+    background-image: url("https://png.pngtree.com/background/20220729/original/pngtree-neon-light-banner-in-fluorescent-color-picture-image_1864085.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+    padding: 50px 400px;
+}
+table{background-color: rgba(255, 255, 255, 0.899);
+    height: 600px;
+    width: 700px;
+}
+td,th{
+    width: 25%;
+}
+table tr:nth-child(5) td:nth-child(2),table tr:nth-child(6) td:nth-child(2){
+    font-size: 35px;
+}
+table,td,th{border-collapse: collapse; padding: 10px;}
+table tr:first-child{
+    background-color: rgb(255, 0, 115);
+    height: 70px;
+}
+i{
+    font-size: 35px;
+    color: rgb(0, 146, 5);
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(190, 85, 255);
+}
+table tr:nth-child(3) th:nth-child(2){
+    color: rgb(4, 0, 255);
+}
+table tr:nth-child(3) th:nth-child(3){
+    color: rgb(255, 0, 238);
+}
+table tr:nth-child(3) th:last-child{
+    color: rgb(141, 0, 94);
+}
+
+table tr td:first-child{
+    text-align: left;
+}

@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.overall{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    position: relative;
+    background-image:linear-gradient(to top,black,rgb(119, 119, 119),black) ;
+}
+.overall>section{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px double white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    
+    animation-name: box;
+    transition: all 4s;
+    animation-duration: 8s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    /* position: absolute;
+    transition: all 5s;
+    background-color: aquamarine;
+    animation-name: box;
+  
+    animation-duration: 4s;
+    animation-fill-mode: forwards; */
+    
+}
+.overall>section:nth-child(1){
+    background-color: aquamarine;
+    
+    animation-timing-function: ease;
+    top: 0;
+    
+
+}
+.overall>section:nth-child(2){
+    
+    background-color: rgb(127, 202, 255);
+    animation-timing-function:linear;
+    top: 150px;
+}
+.overall>section:nth-child(3){
+    animation-timing-function: ease-in;
+    top: 300px;
+    background-color: rgb(195, 127, 255);
+
+}
+.overall>section:nth-child(4){
+    empty-cells: auto;
+    top: 450px;
+    animation-timing-function: ease-out;
+    background-color: rgb(255, 127, 165);
+
+}
+.overall>section:nth-child(5){
+    animation-timing-function: ease-in-out;
+    background-color: rgb(255, 204, 127);
+    top: 600px;
+
+}
+
+
+@keyframes box {
+    0%{
+        
+        left: 0px;
+    }
+    50%{
+        top: 600px;
+        left: 600px;
+    }
+   
+  
+    100%{
+        
+        left: 90%;
+    }}

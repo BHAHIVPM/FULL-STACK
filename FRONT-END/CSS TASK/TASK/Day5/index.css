@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://wallpapers.com/images/hd/computer-background-nlcn8tgg6brmk15f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 70px;
+}
+h1{
+    margin-bottom: 20px;
+}
+body>div{
+    height:200px;
+    width:600px;
+    background-color:transparent;
+    float: left;
+    margin: 20px;
+
+}
+body>div>div:first-child{
+    background-color:transparent;
+    height: 100%;
+    width: 20%;float: left;
+}
+body>div>div:nth-child(2){
+    background-color: rgba(153, 3, 28, 0);
+    height: 100%;
+    width: 80%;
+    float: left;
+    text-align: left;
+    padding: 10px 0px;
+}
+h3{
+    margin-top: 50px;
+    color: rgb(255, 204, 0);
+}
+i{
+    color:rgb(255, 147, 80);
+    font-size: 62px;
+}

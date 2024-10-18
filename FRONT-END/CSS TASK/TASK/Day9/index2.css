@@ -1,0 +1,15 @@
+section{
+    min-height: 750px;
+    background-color: pink;
+    width:100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+section>div{
+    width: 300px;
+    height: 300px;
+    
+    background-color: aqua;
+}

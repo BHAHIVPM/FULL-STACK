@@ -1,0 +1,85 @@
+
+
+body{
+    background-color: rgb(255, 229, 253);
+    font-family:Arial;
+
+}
+.bo{
+    width:1000px;
+    height:225px;
+    background-color:
+    rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top:100px ;
+}
+.bb{
+    width:45%;
+    height:100%;
+    background-color:rgb(214, 255, 214);
+    padding: 20px;
+    box-sizing: border-box;
+    float:left;
+    border-radius:10px;
+}
+.b11{
+    width:70%;
+    height:100%;
+    background-color:rgb(214, 255, 214);
+    float:left;
+    
+    box-sizing: border-box;
+    padding: 0px 10px ;
+ 
+}
+.b12{
+    width:30%;
+    height:100%;
+    background-color:rgb(214, 255, 214);
+    float:left;
+    padding: 5px;
+    box-sizing: border-box;
+ 
+}
+span{
+    color:green;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+button{
+    color: pink;
+    height: 60%;
+    width: 75%;
+    font-size: 20px;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: none;
+}
+p{
+    color: grey;
+}
+.p1{
+    font-size: 13px;
+}
+.b2{
+    margin-left: 10%;
+    background-color: rgb(254, 216, 216);
+}
+
+.bu1{
+    color: green;
+    background-color: rgb(130, 241, 130);
+}
+.bu2{
+    color: red;
+    background-color: rgb(252, 157, 157);
+}
+.sp2{
+    color:red;
+}
+.b21{
+    background-color: rgb(254, 216, 216);
+
+}

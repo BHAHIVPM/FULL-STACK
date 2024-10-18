@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(97, 98, 97) ;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.overall{
+    width: 70%;
+    min-height: 590px;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(255, 224, 232);
+    padding: 25px;
+    justify-content: center;
+    position: relative;
+}
+
+.box1{
+    min-width:45%;
+    min-height: 540px;
+    background-image:radial-gradient(circle, white,red);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: -5%;
+    
+    box-shadow:0px 0px 50px 10px rgba(0, 0, 0, 0.478);
+    
+}
+.box1>div:first-child{
+    width: 100%;
+    min-height: 10%;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+i{
+    color: white;
+    font-size: 22px;
+}
+.box1>div:last-child{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    background-color: rgb(255, 241, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+.box1>div:last-child>section{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.box1>div:nth-child(2){
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.box1>div:nth-child(2)>img{
+    width:100%;
+    height:100%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    position:absolute;
+    left: -15%;
+}
+.box1>div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/******************************box2**********************************/
+
+.box2{
+    width: 50%;
+    min-height: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right:3%;
+
+}
+span{
+    font-size: 16px;
+    font-weight: 100;
+}
+.select{
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+li{
+    margin-left: 15px;
+}
+.select>div{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+.select>div:nth-child(2){
+    border: 2px solid black;
+}
+.select>div img{
+    width: 50px;
+    height: 50px;
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(221, 69, 69);
+}
+p{
+    color: grey;
+}
+.box2>p:nth-child(2){
+    margin-top: -30px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(214, 42, 65);
+    border: none;
+    
+    box-shadow:0px 0px 30px 5px rgba(0, 0, 0, 0.553);
+
+
+}
+@media only screen and (min-width:300px) and (max-width:900px) {
+    .overall{
+        
+        position: unset;
+        flex-direction: column;
+    }
+    .box1{
+        width: 100%;
+        position: unset;
+    }
+    .box2{
+        width: 100%;
+        position: unset;
+    }
+    .select,.box2>p:nth-child(2){
+        margin: unset;
+    }
+  
+    
+}
