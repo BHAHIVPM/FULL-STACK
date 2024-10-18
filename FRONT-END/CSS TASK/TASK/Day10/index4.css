@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(130, 188, 236), rgb(164, 255, 164));
+}
+.b1{
+    width: 80%;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.b1 button{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    border: 1px solid  rgb(0, 255, 149);
+    color: white;
+    background-color:transparent;
+    font-size: 20px;
+
+}
+.b2{
+
+    width:80%;
+    min-height: 400px;
+    display: flex;
+    justify-content:center;
+    padding: 30px ;
+    flex-wrap: wrap;
+
+
+}
+.in1{
+ min-width: 300px;
+ max-width: 500px;
+ min-height: 80%;
+display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.b2>section{
+min-width:300px;
+width: 400px;
+min-height: 300px;
+display: flex;
+justify-content:start;
+gap: 10px;
+flex-direction: column;
+padding: 30px;
+
+}
+.b2 img{
+    width: 100px;
+    height: 40px;
+}
+.b2>section:first-child div{
+    width: 100%;
+}
+.b2>section:first-child div button{
+    min-height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid  rgb(0, 255, 149);
+    color:   rgb(0, 255, 149);
+    padding: 5px;
+    margin-right:10px ;
+    background-color: transparent;
+   
+}
+.b2>section:first-child div i{
+    font-size: 18px
+}
+.b2>section:last-child>div{
+    width:100%;
+    min-height: 40px;
+    display: flex;
+}
+.b2>section:last-child>div>input{
+    width: 85%;
+    height: 100%;
+
+}
+.b2>section:last-child>div>button{
+    width: 15%;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.b2>section:last-child>div~div{
+    min-width: 100%;
+    min-height: 150px;
+     display: flex;
+     justify-content: start;
+     gap: 20px;
+     flex-wrap: wrap;
+
+    
+}
+.b2>section:last-child>div~div section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    min-height: 100px;
+}
+.b2>section:last-child p{
+    text-decoration: underline;
+}
+.b2 input{
+    background-color: transparent;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border: 2px solid rgb(0, 255, 149);
+    padding: 10px;
+}
+.b2 input+button{
+    background-color: rgb(0, 255, 149);
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border: 2px solid rgb(0, 255, 149);
+}
+.b2{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.b1{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.b2>section:nth-child(2){
+    border-left: 2px solid grey;
+}
+
+@media only screen and (min-width:900px) and (max-width:1115px) {
+    .b2>section{
+        flex-grow: 1;
+        }
+        .b2>section:last-child{
+            border: none;
+            border-top: 2px solid grey;
+        }
+}
+
+@media only screen and (min-width:300px) and (max-width:900px) {
+    .b2>section:last-child{
+        border: none;
+        border-top: 2px solid grey;
+    }
+
+    .in1{
+        flex-grow: 1;
+        padding: 20px;
+        }
+}
