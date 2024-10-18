@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, black,grey,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.5;
+}
+.overall>section{
+    width: 500px;
+    min-height: 500px;
+    background-color: rgb(184, 38, 38);
+    padding: 20px;
+    padding-bottom: 0px;
+    flex-grow: 0.1;
+    
+}
+.top1{
+    width: 100%;
+    min-height: 37%;
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+    
+
+}
+.top1>section>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.top1>section:first-child{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.top1>section:last-child{
+    width: 30%;
+    height: 100%;
+}
+.overall>section>div:nth-child(2){
+    min-height: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: grey;
+  
+    position: relative;
+}
+.parent>section{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    position: absolute;
+    
+    background-color: rgb(184, 38, 38);
+}
+.parent>section:nth-child(1){
+    left: -20px;
+}
+.parent>section:nth-child(2){
+   right: -20px;
+}
+.middle2{
+    width: 100%;
+    min-height: 37%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+.middle2>div{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle2>div>section:first-child{
+    width: 65%;
+    height: 100%;
+
+}
+.middle2 img{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.middle2>div>section:last-child{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.middle2>div>section:first-child>div{
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+.middle2>h4{
+    text-align: center;
+}
+
+.bottom3{
+    min-height: 20%;
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+}
+.bottom3>div:first-child{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    color: white;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+
+}.bottom3>div:last-child{
+    width: 45%;
+    height: 100%;
+  
+
+}
+button{
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.346);
+}
+section>button{
+    width: 40px;
+    margin-right: 10px;
+}
+section>button:nth-child(2){
+    width:80px;
+}
+h1{
+    font-size: 20px;
+    color: red;
+}
+.bottom3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+span{
+    color: grey;
+}
+
+@media screen and (min-width:270px) and (max-width:470px) {
+    .top1{
+        flex-direction: column;
+    }
+    .top1>section:first-child,.top1>section:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .top1>section>img{
+        object-fit:cover;
+        width: 140px;
+        height: 200px;
+    }
+    .middle2>div{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .middle2>div>section:first-child{
+        flex-direction: column;
+        background-color: antiquewhite;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    
+    }
+    .middle2>div>section:first-child>div{
+        float: unset;
+    }
+    h3>span{
+        display: none;
+    }
+
+    
+}
