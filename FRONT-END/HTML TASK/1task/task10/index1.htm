@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<title>Form</title>
+<!-----------------------------css------------------------------------>
+<style>
+body{background-color:grey;font-family:tahoma}
+h1{margin:0px}
+.a1{width:400px;height:890px;background-color:palegreen; padding:15px;box-sizing:border-box;border-radius:20px;margin:auto;}
+.a2{width:100%;height:95%;background-color:palegreen; padding:20px;box-sizing:border-box;}
+label,input{margin:5px;}
+.fl{width:100%;border-radius:5px;border:none;height:30px}
+.bb{height:30px;width:100px;border-radius:5px;border:none;margin:5px;margin-top:20px}
+.b1{background-color:teal;color:white}
+.b2{background-color:crimson;color:white}
+</style>
+</head>
+<body>
+<div class="a1">
+<h1>Type Checking...</h1>
+<div class="a2">
+<form>
+<label for="nm">Type : text</label><br/>
+<input id="nm" class="fl" name="tt"placeholder="Enter your name"/><br/>
+
+<label for="pwd">Type : Password<label><br/>
+<input id="pwd" class="fl" name="pass" placeholder="Enter your password" type="password"/><br/>
+
+<label for="de">Type : date</label><br/>
+<input id="de" class="fl" name="dat" placeholder="dd-mm-yy" type="date"/><br/>
+
+<label for="em">Type : email</label><br/>
+<input id="em" class="fl" name="eml" placeholder="E-mail" type="email"/><br/>
+
+<label>Type : checkbox</label><br/>
+<input id="bk" name="cb" type="checkbox"/>
+<label for="bk">I have bike</lable><br/>
+<input id="cr" name="cb" type="checkbox"/>
+<label for="cr"> I have car</lable><br/>
+<input id="bt" name="cb" type="checkbox"/>
+<label for="bt">I have boat</lable><br/><br/>
+
+<label for="nm">Type : number(1 to 5):</lable><br/>
+<input id="nm" class="fl" name="num" type="number"/><br/>
+
+<label>Type : radio</label><br/>
+<input id="ht" name="rd" type="radio"/>
+<label for="ht">HTML</lable><br/>
+<input id="css" name="rd" type="radio"/>
+<label for="css">CSS</lable><br/>
+<input id="js" name="rd" type="radio"/>
+<label for="js"> JavaScript</lable><br/><br/>
+
+<label for="tl">Type : tel<label><br/>
+<input id="tl"  class="fl" name="pass" placeholder="123-45-678-94" type="tel"/><br/>
+<label for="tl">Format:123-45-678-94<label><br/><br/>
+
+<label for="sch">Type : search<label><br/>
+<input id="sch" class="fl" name="srh" placeholder="Search Here" type="search"/><br/>
+
+<label for="dte">Type : tel<label><br/>
+<input id="dte " class="fl" name="dtm"  type="datetime-local"/><br/>
+
+<button class="bb b1"> Submit</button>
+<button class="bb b2"> Reset</button>
+
+</form>
+</div>
+</div>
+</body>
+
+</html>
