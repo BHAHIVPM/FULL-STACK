@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.overall{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+nav{
+    width: 130px;
+    height: 60px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 30px;
+    position: absolute;
+    margin:2%  3%;
+    z-index: 5;
+    overflow: hidden;
+    top: 0;
+    left: 0%;
+    transition: all 500ms;
+}
+nav:hover{
+    box-shadow: 0px 0px 5px 1px yellow;
+}
+nav button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(234, 209, 22);
+    border-radius: 20px;
+    border: none;
+}
+nav a{
+    
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav h3{
+    display: none;
+    opacity: 0;
+    transition: all 1s;
+}
+nav:hover{
+    width: 95%;
+    transition: all 1s;
+}
+nav:hover h3{
+    display:inline;
+    opacity: 1;
+}
+
+/* ------------------------------------ */
+label{
+    color: white;
+}
+form{
+    width: 300px;
+    min-height: 400px;
+    background-color: rgba(251, 255, 0, 0.235);
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.2;
+    transition: all 500ms;
+    box-shadow: 0px 0px 10px 3px rgb(78, 78, 56) ;
+}
+form>div:nth-child(1){
+    width: 220px;
+    height:50px;
+    background-color: rgba(245, 248, 32, 0.328);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-self: center;
+}
+form>div:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+form section{
+    width: 48%;
+}
+form>div a{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    transition: all 500ms;
+}
+form:hover{
+    backdrop-filter: blur(15px);
+    background-color: rgba(251, 255, 0, 0.299);
+    box-shadow: 0px 0px 10px 3px yellow ;
+}
+div div a:hover{
+    background-color: rgba(0, 0, 0, 0.309);
+    transform: scale(1.05);
+    color: white;
+}
+form>a:hover{
+    
+    box-shadow: 0px 0px 10px 2px black;
+    transform: scale(1.05);
+    color: white;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+form>a{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(191, 180, 23);
+    margin-top: 30px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+    text-decoration: none;
+    border-radius: 20px;
+}
+form>div a:last-child{
+    background-color: rgb(222, 202, 16);
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+
+.lastpg{
+    min-height:10vh ;
+    width: 100%;
+    background-color: rgb(58, 56, 40);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    color: white;
+    align-items: center;
+}
+.lastpg>section:last-child{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.lastpg i {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+.lastpg i:hover{
+    color: rgb(255, 234, 0);
+    transform: scale(1.1);
+}
+
+.shutter1{
+    height: 2000px;
+    width:2000px;
+    position: absolute;
+    background-color: rgb(225, 207, 9);
+    z-index: 99;
+    transform: rotate(45deg);
+    top: -80%;
+    left: 300%;
+    animation: shutter1 3s;
+}
+.shutter2{
+    height: 2000px;
+    width:2000px;
+    position: absolute;
+    background-color: rgb(225, 207, 9);
+    z-index: 99;
+    transform: rotate(45deg);
+    top: -80%;
+    right: 300%;
+    animation: shutter2 3s;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes shutter1 {
+    0%{
+        left: -80%;
+    }
+    10%{
+        right: 0%;
+    }
+    20%{
+        left: 100%;
+        transform: rotate(45deg);
+    }
+    60%{
+        left: 100%;
+        transform: rotate(180deg);
+
+    }
+    75%{
+        left: 133%;
+    }
+    100%{
+        left: 300%;
+    }
+    
+}
+@keyframes shutter2 {
+    0%{
+        right: -80%;
+    }
+    10%{
+        right: 0%;
+    }
+    20%{
+        right: 100%;
+        transform: rotate(45deg);
+    }
+    60%{
+        right: 100%;
+        transform: rotate(180deg);
+    }
+
+    75%{
+        right: 133%;
+    }
+    100%{
+       right: 300%;
+    }
+    
+}
