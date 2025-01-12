@@ -1111,7 +1111,7 @@ ul ul li a:hover{
 
 /* -------------------------------------media--------------------------------------- */
 
-@media only screen and (min-width:250px) and (max-width:750px) {
+@media only screen and (min-width:200px) and (max-width:750px) {
     .home1>div:nth-child(3){
         flex-direction: column;
         gap: 15px;
@@ -1197,7 +1197,7 @@ ul ul li a:hover{
 }
     
 
-@media only screen and (min-width:250px) and (max-width:600px) {
+@media only screen and (min-width:200px) and (max-width:600px) {
     
     .home1>div:nth-child(3){
         margin-top: 40%;
